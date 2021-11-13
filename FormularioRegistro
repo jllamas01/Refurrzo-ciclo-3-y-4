@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>System Control</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Registro de Usuarios            </h1>
+        <img src="imagen/JYM.jpg" alt="">
+        <br><br>
+      
+        <form>
+            <label for="Tipo Documento">Tipo de Documento</label>
+            <select name="Tipo Documento" id="Tipo Documento">                
+                <option value="CC">Cedula de Ciudadania</option>
+                <option value="CE">Cedula de Extranjeria</option>
+                <option value="TI">Tarjeta de Identidad</option>
+            </select>
+            <br><br>
+            <label for="NDocumento">Numero del Documento de identidad</label>
+            <input type="text" name="NDocumento" id="NDocumento">
+            <br><br>
+            <label for="Nombre">Nombres: </label>
+            <input type="text" name="Nombre" id="Nombre">
+            <br><br>
+            <label for="Apellido">Apellidos: </label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br><br>
+            <label for="Usuario">Nombre Usuario: </label>
+            <input type="text" name="Usuario" id="Usuario">
+            <br><br>
+            <label for="Contrasena">Contrasena: </label>
+            <input type="password" name="Contrasena" id="Contrasena">
+            <br><br>
+            <label for="ConfContrasena">Confirmar Contrasena: </label>
+            <input type="password" name="ConfContrasena" id="ConfContrasena">
+            <br><br>
+            <label for="Genero">Genero </label>
+            <input type="radio" name="Genero" id="Genero" value="M">Masculino
+            <input type="radio" name="Genero" id="Genero" value="F">Femenino
+            <br><br>
+            <input type="button" value="Registrarme">
+        </form>
+    </body>
+</html>
